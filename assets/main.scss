@@ -1,0 +1,14 @@
+---
+---
+@import "minima";
+
+body .site-header {
+    border-top: 0px;
+}
+.site-title::before {
+    content: url("mit_logo_std_rgb_black.svg") !important;
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    top: 5px;
+}
