@@ -27,9 +27,16 @@ layout: base
             </time>
             {%- if seminar.zoom -%}
             • 
-            <a href="{{ page.zoom }}" class="btn btn-primary">Zoom Link</a>
+            <a href="{{ seminar.zoom }}" class="btn btn-primary">Zoom Link</a>
             {%- endif -%}
             <br>{{ seminar.author }}
+            {%- if seminar.affiliation -%}
+            {% for affiliation in seminar.affiliation %}
+            • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
+                 <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
+                 {%- if forloop.last == false %}, {% endif -%}
+             {% endfor %}
+           {%- endif -%}    
             <br>
             <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
             <br>
@@ -52,6 +59,13 @@ layout: base
             </time>
             <br>
             {{ seminar.author }}
+            {%- if seminar.affiliation -%}
+            {% for affiliation in seminar.affiliation %}
+            • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
+                 <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
+                 {%- if forloop.last == false %}, {% endif -%}
+             {% endfor %}
+           {%- endif -%}    
             <br>
             <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
         </li>

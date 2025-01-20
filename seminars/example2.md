@@ -5,7 +5,8 @@
 layout: seminar
 title: Talk title
 date: 2025-02-24 2:00pm
-author: Presenter name, presenter affilaition.
+author: Sungho Shin
+affiliation: Department of Chemical Engineering, MIT
 zoom: https://mit.zoom.us/j/123456789
 
 ---
