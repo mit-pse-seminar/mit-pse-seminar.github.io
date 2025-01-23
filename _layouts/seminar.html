@@ -20,7 +20,9 @@ layout: base
         </time>
       {%- endif -%}
       {%- if page_timestamp >= site_timestamp -%}
+      {%- if page.zoom -%}
       • <a href="{{ page.zoom }}" class="btn btn-primary">Zoom Link</a>
+      {%- endif -%}
       {%- endif -%}
       <br>
       {%- if page.author -%}
