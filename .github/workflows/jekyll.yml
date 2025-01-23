@@ -41,11 +41,11 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-          PAGES_REPO_NWO: "mit-pse-seminar/pse-seminar"
+          # PAGES_REPO_NWO: "mit-pse-seminar/pse-seminar"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Create CNAME file
-        run: echo 'pse-seminar.mit.edu' > ./_site/CNAME
+      # - name: Create CNAME file
+      #   run: echo 'pse-seminar.mit.edu' > ./_site/CNAME
 
   deploy:
     environment:
