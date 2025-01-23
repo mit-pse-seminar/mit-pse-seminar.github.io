@@ -12,5 +12,5 @@ The MIT PSE seminar series is an event hosted by the MIT Process Systems Enginee
 Subscribe to our [mailing list](https://mailman.mit.edu/mailman/listinfo/pse-seminar).
 
 ## Logistics
-- **When:** Thursdays, 2:00-3:00 PM, Spring and Fall Semesters
-- **Where:** MIT E17-517 and Zoom (link provided in the seminar announcement)
+- **When:** Thursdays, 2:00-3:00 PM ET, during Spring and Fall Semesters
+- **Where:** MIT E17-517 and via Zoom (link provided in the seminar announcement)

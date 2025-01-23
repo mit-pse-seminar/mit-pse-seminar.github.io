@@ -14,7 +14,7 @@ layout: base
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
 
     <h2>Upcoming Seminars</h2>
-    
+    <p>(All times are in ET)</p>
     <ul>
         {%- for seminar in seminars reversed -%}
         {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
