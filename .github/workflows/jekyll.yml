@@ -38,9 +38,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --baseurl=""
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: "mit-pse-seminar/pse-seminar"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
