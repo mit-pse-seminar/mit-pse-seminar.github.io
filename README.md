@@ -6,7 +6,7 @@ First, install jekyll by following the instructions [here](https://jekyllrb.com/
 
 Then, clone this repository:
 ```shell
-git clone https://github.com/mit-pse-seminar/mit-pse-seminar.github.io/edit/main/README.md
+git clone https://github.com/mit-pse-seminar/mit-pse-seminar.github.io
 ```
 
 Install the dependencies
