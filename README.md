@@ -1,7 +1,7 @@
 PSE-seminar
 ===========
 
-# How to build locally
+## How to build locally
 First, install jekyll by following the instructions [here](https://jekyllrb.com/docs/installation/).
 
 Then, clone this repository:
