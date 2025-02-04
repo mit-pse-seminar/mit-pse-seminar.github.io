@@ -4,7 +4,7 @@
 
 layout: seminar
 title: TBD
-date: 2025-05-01 2:00pm
+date: 2025-05-01 3:00pm
 author: Georgia Stinchfield
 affiliation: Carnegie Mellon University
 # zoom: https://mit.zoom.us/j/123456789

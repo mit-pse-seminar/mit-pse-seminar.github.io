@@ -4,7 +4,7 @@
 
 layout: seminar
 title: Process systems engineering for gene therapy manufacturing
-date: 2025-03-06 2:00pm
+date: 2025-03-06 3:00pm
 author: Francesco Destro
 affiliation: Massachusetts Institute of Technology
 # zoom: https://mit.zoom.us/j/123456789

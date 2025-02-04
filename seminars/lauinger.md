@@ -4,7 +4,7 @@
 
 layout: seminar
 title: TBD
-date: 2025-04-03 2:00pm
+date: 2025-04-03 3:00pm
 author: Dirk Lauinger
 affiliation: Massachusetts Institute of Technology
 # zoom: https://mit.zoom.us/j/123456789

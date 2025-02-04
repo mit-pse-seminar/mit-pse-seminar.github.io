@@ -4,9 +4,9 @@
 
 layout: seminar
 title: "Polymer physics meets machine learning: a synergistic approach to complex polymer design"
-date: 2025-02-13 2:00pm
+date: 2025-02-13 3:00pm
 author: Shengli (Bruce) Jiang
-affiliation: Princeton Unviersity
+affiliation: Princeton University
 # zoom: https://mit.zoom.us/j/123456789
 ---
 # Abstract
