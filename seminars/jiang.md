@@ -7,7 +7,7 @@ title: "Polymer physics meets machine learning: a synergistic approach to comple
 date: 2025-02-13 3:00pm
 author: Shengli (Bruce) Jiang
 affiliation: Princeton University
-# zoom: https://mit.zoom.us/j/123456789
+zoom: https://mit.zoom.us/j/99418937411?pwd=DvV62UslcbKBjelcwGOqAbJax745tk.1
 ---
 # Abstract
 <div style="text-align: justify;">
