@@ -26,7 +26,7 @@ layout: base
     {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
     <li>
       <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ seminar.date | date: "%B %d, %Y, %I:%M %p %Z" }}
+        {{ seminar.date | date: "%B %d, %Y, %l:%M %p %Z" }}
       </time>
       {%- if seminar.zoom -%}
       • 
@@ -60,7 +60,7 @@ layout: base
     {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
     <li>
       <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ seminar.date | date: "%B %d, %Y, %I:%M %p %Z" }}
+        {{ seminar.date | date: "%B %d, %Y, %l:%M %p %Z" }}
       </time>
       <br>{{ seminar.author }}
       {%- if seminar.affiliation -%}
@@ -89,7 +89,7 @@ layout: base
 			       {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
 			       <li>
 				 <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
-				   {{ seminar.date | date: "%B %d, %Y, %I:%M %p %Z" }}
+				   {{ seminar.date | date: "%B %d, %Y, %l:%M %p %Z" }}
 				 </time>
 				 <br>
 				 {{ seminar.author }}
