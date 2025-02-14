@@ -3,76 +3,110 @@ layout: base
 ---
 
 <div class="home">
-    {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
-    
-    {{ content }}
-    
-    {%- assign seminars = site.pages | where: "layout", "seminar" | sort: "date" | reverse -%}
-    {%- assign site_timestamp = site.time | date: "%Y%m%d" -%}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  {{ content }}
+  
+  {%- assign seminars = site.pages | where: "layout", "seminar" | sort: "date" | reverse -%}
 
-    <h2>Upcoming Seminars</h2>
-    <p>(All times are in ET)</p>
-    <ul>
-        {%- for seminar in seminars reversed -%}
-        {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
-        
-        {%- if seminar_timestamp >= site_timestamp -%}
-        {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
-        <li>
-            <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
-                {{ seminar.date | date: date_format }}
-            </time>
-            {%- if seminar.zoom -%}
-            • 
-            <a href="{{ seminar.zoom }}" class="btn btn-primary">Zoom Link</a>
-            {%- endif -%}
-            <br>{{ seminar.author }}
-            {%- if seminar.affiliation -%}
-            {% for affiliation in seminar.affiliation %}
-            • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
-                 <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
-                 {%- if forloop.last == false %}, {% endif -%}
-             {% endfor %}
-           {%- endif -%}    
-            <br>
-            <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
-            <br>
-        </li>
-        {%- endif -%}
-        {%- endfor -%}
-    </ul>
+  {%- assign site_timestamp = site.time | date: "%Y%m%d" -%}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
+
+  <h2>Next Seminar</h2>
+  <ul>
+    {%- assign count = 0 -%}
+    {%- for seminar in seminars reversed -%}
+    {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
     
-    <h2>Past Seminars</h2>
-    <ul>
-        {%- for seminar in seminars -%}
-        {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
-        
-        {%- if seminar_timestamp < site_timestamp -%}
-        {%- if seminar.layout == "seminar" -%}
-        {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
-        <li>
-            <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
-                {{ seminar.date | date: date_format }}
-            </time>
-            <br>
-            {{ seminar.author }}
-            {%- if seminar.affiliation -%}
-            {% for affiliation in seminar.affiliation %}
-            • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
-                 <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
-                 {%- if forloop.last == false %}, {% endif -%}
-             {% endfor %}
-           {%- endif -%}    
-            <br>
-            <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
-        </li>
-        {%- endif -%}
-        {%- endif -%}
-        {%- endfor -%}
-    </ul>
+    {%- if seminar_timestamp >= site_timestamp -%}
+    {%- assign count = count | plus: 1 -%}
+    {%- if count == 1 -%}
+    {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
+    <li>
+      <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ seminar.date | date: "%B %d, %Y, %I:%M %p %Z" }}
+      </time>
+      {%- if seminar.zoom -%}
+      • 
+      <a href="{{ seminar.zoom }}" class="btn btn-primary">Zoom Link</a>
+      {%- endif -%}
+      <br>{{ seminar.author }}
+      {%- if seminar.affiliation -%}
+      {% for affiliation in seminar.affiliation %}
+      • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      {%- endif -%}    
+      <br>
+      <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
+      <br>
+    </li>
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+  <h2>Upcoming Seminars</h2>
+  <ul>
+    {%- assign count = 0 -%}
+    {%- for seminar in seminars reversed -%}
+    {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
     
+    {%- if seminar_timestamp >= site_timestamp -%}
+    {%- assign count = count | plus: 1 -%}
+    {%- if count > 1 -%}
+    {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
+    <li>
+      <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ seminar.date | date: "%B %d, %Y, %I:%M %p %Z" }}
+      </time>
+      <br>{{ seminar.author }}
+      {%- if seminar.affiliation -%}
+      {% for affiliation in seminar.affiliation %}
+      • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      {%- endif -%}    
+      <br>
+      <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
+      <br>
+    </li>
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+  
+  <h2>Past Seminars</h2>
+  <ul>
+    {%- for seminar in seminars -%}
+    {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
     
+    {%- if seminar_timestamp < site_timestamp -%}
+			       {%- if seminar.layout == "seminar" -%}
+			       {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
+			       <li>
+				 <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
+				   {{ seminar.date | date: "%B %d, %Y, %I:%M %p %Z" }}
+				 </time>
+				 <br>
+				 {{ seminar.author }}
+				 {%- if seminar.affiliation -%}
+				 {% for affiliation in seminar.affiliation %}
+				 • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
+				   <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
+				 {%- if forloop.last == false %}, {% endif -%}
+				 {% endfor %}
+				 {%- endif -%}    
+				 <br>
+				 <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
+			       </li>
+			       {%- endif -%}
+			       {%- endif -%}
+			       {%- endfor -%}
+  </ul>
+  
+  
 </div>

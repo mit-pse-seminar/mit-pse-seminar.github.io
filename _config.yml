@@ -31,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
 header_pages: ['']
+timezone: America/New_York
 
 # Exclude from processing.
 # The following items will not be processed, by default.
