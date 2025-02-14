@@ -7,7 +7,7 @@ title: Optimization approaches for bounding and certifying neural networks
 date: 2025-02-20 2:00pm
 author: Calvin Tsay
 affiliation: Imperial College London
-# zoom: https://mit.zoom.us/j/123456789
+zoom: https://mit.zoom.us/j/91281296272?pwd=MErB89MHSnA4O7MI0gdjf0tuWoxe2H.1
 ---
 # Abstract
 <div style="text-align: justify;">
