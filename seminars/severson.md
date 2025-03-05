@@ -14,7 +14,7 @@ affiliation: Microsoft Research
 Concrete is the most widely used building material in the world with an estimated global annual production of 30 billion metric tons. Largely because of this scale, the concrete industry is estimated to produce approximately 8% of all global CO2 emissions, therefore decreasing the carbon footprint of the concrete industry is an important consideration for the global decarbonization effort. In this talk, I will present a method to design concretes with decreased global warming potential using an optimization framework which relies upon quality attributes estimated from an amortized Gaussian process model. I will share two examples of this approach: one, using industrial waste products, and another designing novel biocements.
 </div>
 # Speaker Bio
-![photo](./headshots/destro.jpg)
+![photo](./headshots/severson.jpg)
 <div style="text-align: justify;">
  Kristen Severson is a Principal Researcher at Microsoft Research New England where her research focuses on leveraging domain knowledge to improve machine learning models and methods with a particular focus on applications in health. Prior to joining Microsoft, Kristen was a postdoc and researcher at IBM Research. She completed her PhD in Chemical Engineering at MIT.
  </div>
