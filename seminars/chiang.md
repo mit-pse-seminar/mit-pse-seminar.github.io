@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: TBD
+title: "The future is now: AI and humans working in the loop in process systems engineering"
 date: 2025-04-17 2:00pm
 author: Leo Chiang
 affiliation: Dow Chemical
