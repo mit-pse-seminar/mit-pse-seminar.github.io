@@ -40,7 +40,7 @@ spatial branch and bound tree for decomposition.
 </div>
 
 # Speaker Bio
-![photo](./headshots/rdmcallister.jpg)
+![photo](./headshots/stinchfield.jpg)
 <div style="text-align: justify;">
 Georgia Stinchfield is a fourth-year Doctoral candidate in the Department of Chemical
 Engineering at Carnegie Mellon University. She is advised by Prof. Carl Laird, conducting
