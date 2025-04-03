@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: Optimal design approaches for rapid, cost-effective manufacturing and
-deployment of chemical process families
+title: "Optimal design approaches for rapid, cost-effective manufacturing and
+deployment of chemical process families"
 date: 2025-05-01 3:00pm
 author: Georgia Stinchfield
 affiliation: Carnegie Mellon University
