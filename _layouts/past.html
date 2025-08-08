@@ -1,0 +1,46 @@
+---
+layout: base
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  {{ content }}
+  
+  {%- assign seminars = site.pages | where: "layout", "seminar" | sort: "date" | reverse -%}
+
+  {%- assign site_timestamp = site.time | date: "%Y%m%d" -%}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
+
+  <ul>
+    {%- for seminar in seminars -%}
+    {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
+    
+    {%- if seminar_timestamp < site_timestamp -%}
+			       {%- if seminar.layout == "seminar" -%}
+			       {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
+			       <li>
+				 <time class="dt-published" datetime="{{ seminar.date | date_to_xmlschema }}" itemprop="datePublished">
+				   {{ seminar.date | date: "%B %d, %Y, %l:%M %p %Z" }}
+				 </time>
+				 <br>
+				 {{ seminar.author }}
+				 {%- if seminar.affiliation -%}
+				 {% for affiliation in seminar.affiliation %}
+				 • <span itemprop="affiliation" itemscope itemtype="http://schema.org/Person">
+				   <span class="p-author h-card" itemprop="name">{{ affiliation }}</span></span>
+				 {%- if forloop.last == false %}, {% endif -%}
+				 {% endfor %}
+				 {%- endif -%}    
+				 <br>
+				 <a href="{{ seminar.url | relative_url }}">{{ seminar.title }}</a>
+			       </li>
+			       {%- endif -%}
+			       {%- endif -%}
+			       {%- endfor -%}
+  </ul>
+  
+  
+</div>

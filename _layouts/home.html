@@ -81,10 +81,12 @@ layout: base
   
   <h2>Past Seminars</h2>
   <ul>
+    {%- assign count = 0 -%}
     {%- for seminar in seminars -%}
     {%- assign seminar_timestamp = seminar.date | date: "%Y%m%d" -%}
     
-    {%- if seminar_timestamp < site_timestamp -%}
+    {%- if seminar_timestamp < site_timestamp and count < 5 -%}
+			       {%- assign count = count | plus: 1 -%}
 			       {%- if seminar.layout == "seminar" -%}
 			       {% assign formatted_date = seminar.date | date: "%B %d, %Y" %}
 			       <li>
@@ -107,6 +109,6 @@ layout: base
 			       {%- endif -%}
 			       {%- endfor -%}
   </ul>
-  
+  <a href="{{ site.baseurl }}/past"> See the full list of past seminars >></a>  
   
 </div>
