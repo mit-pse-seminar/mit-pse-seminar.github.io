@@ -3,18 +3,19 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: "TBD"
-date: 2025-09-02 2:00pm
-author: David Shu
-affiliation: Massachusetts Institute of Technology
-zoom: https://mit.zoom.us/j/123456789
+title: tbd
+date: 2025-09-25 3:00pm
+author: Ali Mesbah
+affiliation: Department of Chemical and Biomolecular Engineering, University of California, Berkeley
+zoom: coming soon
 ---
 # Abstract
 <div style="text-align: justify;">
-TBD
+coming soon
 </div>
 # Speaker Bio
-![photo](./headshots/shu.jpg)
+#![photo](./headshots/zavala.jpg)
 <div style="text-align: justify;">
-TBD
+coming soon
 </div>
+

@@ -8,8 +8,8 @@ title: Home
 ---
 The MIT PSE seminar series is an event hosted by the MIT Process Systems Engineering Laboratory, led by [Prof. Richard Braatz](https://web.mit.edu/braatzgroup/) and [Prof. Sungho Shin](https://shin.mit.edu). This series features talks by leading researchers in the field of process systems engineering, covering a wide range of topics such as process control, process design, optimization, machine learning, data analytics, and their applications in diverse areas. Open to the public, the seminar series offers a great opportunity to learn about the latest research in process systems engineering. We hope to see you at the next seminar!
 
-## How to receive Zoom link
-Subscribe to our [mailing list](https://mailman.mit.edu/mailman/listinfo/pse-seminar).
+## How to attend
+Subscribe to our [mailing list](https://mailman.mit.edu/mailman/listinfo/pse-seminar) to receive invitations with Zoom links.
 
 ## Logistics
 - **When:** Thursdays, 2:00-3:00 PM, during Spring and Fall Semesters
