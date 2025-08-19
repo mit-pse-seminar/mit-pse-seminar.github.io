@@ -14,7 +14,6 @@ zoom: coming soon
 coming soon
 </div>
 # Speaker Bio
-#![photo](./headshots/zavala.jpg)
 <div style="text-align: justify;">
 coming soon
 </div>

@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: Decomposition Methods for the Guaranteed Global Solution of Nonconvex Stochastic Programs: State-of-the-Art and Future Outlook
+title: "Decomposition Methods for the Guaranteed Global Solution of Nonconvex Stochastic Programs: State-of-the-Art and Future Outlook"
 date: 2025-10-02 3:00pm
 author: Joseph K. Scott
 affiliation: Department of Chemical and Biomolecular Engineering, Georgia Institute of Technology
