@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: From Molecules to Supply Chains: Transforming Data to Decisions using Geometry, Optimization, and Machine Learning
+title: "From Molecules to Supply Chains: Transforming Data to Decisions using Geometry, Optimization, and Machine Learning"
 date: 2025-12-04 3:00pm
 author: Victor M. Zavala
 affiliation: Department of Chemical and Biological Engineering, University of Wisconsin-Madison
