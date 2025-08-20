@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: tbd
+title: coming soon
 date: 2025-09-25 3:00pm
 author: Ali Mesbah
 affiliation: Department of Chemical and Biomolecular Engineering, University of California, Berkeley
