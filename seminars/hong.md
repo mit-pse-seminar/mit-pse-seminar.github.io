@@ -4,7 +4,7 @@
 
 layout: seminar
 title: "coming soon"
-date: 2025-11-22 2:00pm
+date: 2025-11-20 2:00pm
 author: Moo Sun Hong
 affiliation: Department of Chemical and Biological Engineering, Seoul National University
 zoom: coming soon
