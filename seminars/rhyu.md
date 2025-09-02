@@ -4,7 +4,7 @@
 
 layout: seminar
 title: "Interpretable Approaches for Optimizing the Pulse Diagnostics and Formation Protocols for Lithium-Ion Batteries"
-date: 2025-12-04 3:00pm
+date: 2025-10-16 2:00pm
 author: Jinwook Rhyu
 affiliation: Department of Chemical Engineering, Massachusetts Institute of Technology
 zoom: coming soon
