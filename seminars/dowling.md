@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: Optimizing Experiments: From Data-Driven to Intrusive Model-Based Methods
+title: "Optimizing Experiments: From Data-Driven to Intrusive Model-Based Methods"
 date: 2025-09-18 2:00pm
 author: Alexander Dowling
 affiliation: Chemical and Biomolecular Engineering/Applied & Computational Mathematics & Statistics, University of Notre Dame
