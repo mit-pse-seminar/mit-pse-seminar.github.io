@@ -12,9 +12,9 @@ zoom: https://mit.zoom.us/j/91449955401?from=addon
 # Abstract
 <div style="text-align: justify;">
 Laboratory and computational experiments are often time and resource-intensive, which motivates the fundamental question: how to optimally design an experimental campaign (e.g., sequence of experimental conditions) or an experimental apparatus (e.g., select sensors) to maximize the value of information gained under a constrained budget. In this presentation, I will share our recent experiences using data-driven Bayesian optimization, classical model-based experiment design, and hybrid approaches. This will include an overview of recent advances in uncertainty quantification and optimal experiment design in the open-source Pyomo ecosystem. I will summarize the key benefits of each approach, offer recommendations on how to select the most suitable method for a specific problem, and provide best practices.
-
 </div>
 # Speaker Bio
+![photo](./headshots/dowling.jpg)
 <div style="text-align: justify;">
 Alexander (Alex) Dowling is the Tony and Sarah Earley Collegiate Associate Professor of Energy and the Environment at the University of Notre Dame (Indiana, USA). His research combines chemical engineering, computational optimization, machine learning, and data science, organized in three research themes: (1) molecular-to-systems (multiscale) modeling and optimization, (2) optimal design of experiments and statistical inference, and (3) machine learning for bridging timescales. Application domains span sustainable energy, environmental management, and systems biology. Prof. Dowling has been recognized with several awards, including the NSF CAREER award, the CAST Outstanding Young Researcher Award, the Junior Sargent Medal, and the James A. Burns, C.S.C., Award. He holds a B.S.E. from the University of Michigan - Ann Arbor and a Ph.D. from Carnegie Mellon University, all in chemical engineering.
 </div>
