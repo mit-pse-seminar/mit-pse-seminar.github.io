@@ -7,7 +7,7 @@ title: Learning Interpretable Control Policies with Local Actions and Global Opt
 date: 2025-09-25 3:00pm
 author: Ali Mesbah
 affiliation: Department of Chemical and Biomolecular Engineering, University of California, Berkeley
-zoom: coming soon
+zoom: https://mit.zoom.us/j/91753544242?from=addon
 ---
 # Abstract
 <div style="text-align: justify;">
