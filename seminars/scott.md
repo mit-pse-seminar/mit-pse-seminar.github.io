@@ -11,7 +11,7 @@ zoom: coming soon
 ---
 # Abstract
 <div style="text-align: justify;">
-coming soon
+Many optimization problems of the highest societal importance take the form of large-scale mixed-integer nonlinear programs (MINLPs). Often, high-quality solutions cannot be obtained by local or heuristic methods. Instead, guaranteed global solutions are needed. Unfortunately, decades of development make it clear that global solvers are very unlikely to address these problems without decomposition approaches that enable effective parallel computing and (more importantly) reduce the worst-case exponential complexity of the centralized problem. Among all large-scale MINLPs, two-stage stochastic MINLPS offer perhaps the most natural decomposable structure, and recent years have seen the development of the first guaranteed global decomposition methods for these problems. Yet, despite their theoretical advantages, these algorithms remain seriously underpowered and have not yet enabled the solution of many problems that could not be solved with conventional centralized methods. In this talk, we will review the state-of-the-art global decomposition approaches for two-stage stochastic MINLPs, and then present recent theoretical and empirical analyses aimed at understanding their limitations. Our results point to critical theoretical issues (born out in numerical experiments on real applications) with implications that extend well beyond the currently available methods. The talk will conclude with a discussion of critical needs for future method development, possible approaches, and our general outlook on what is likely (and unlikely) to be possible with global decomposition methods.
 </div>
 # Speaker Bio
 ![photo](./headshots/scott.jpg)
