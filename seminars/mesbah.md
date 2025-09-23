@@ -4,7 +4,7 @@
 
 layout: seminar
 title: Learning Interpretable Control Policies with Local Actions and Global Optimality
-date: 2025-09-25 3:00pm
+date: 2025-09-25 2:00pm
 author: Ali Mesbah
 affiliation: Department of Chemical and Biomolecular Engineering, University of California, Berkeley
 zoom: https://mit.zoom.us/j/91753544242?from=addon
