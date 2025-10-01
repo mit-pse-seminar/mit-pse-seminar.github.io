@@ -7,7 +7,7 @@ title: "Decomposition Methods for the Guaranteed Global Solution of Nonconvex St
 date: 2025-10-02 3:00pm
 author: Joseph K. Scott
 affiliation: Department of Chemical and Biomolecular Engineering, Georgia Institute of Technology
-zoom: coming soon
+zoom: https://mit.zoom.us/j/99329340034?from=addon
 ---
 # Abstract
 <div style="text-align: justify;">
