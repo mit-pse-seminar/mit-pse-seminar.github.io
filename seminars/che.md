@@ -7,11 +7,11 @@ title: "Intelligent health diagnosis and prognosis for Lithium-ion batteries"
 date: 2025-10-30 2:00pm
 author: Yunhong Che
 affiliation: Department of Chemical Engineering, Massachusetts Institute of Technology
-zoom: coming soon
+zoom: https://mit.zoom.us/j/97406187542
 ---
 # Abstract
 <div style="text-align: justify;">
-coming soon
+Accurate and reliable state monitoring, health diagnosis, and lifetime prediction are critical to ensure the safe operation of batteries in energy storage systems. Factors such as different battery types, varying battery pack topologies, diverse user scenarios, and regional characteristics contribute to significant pattern differences, thus challenging optimal management. Integrating artificial intelligence technologies has brought new opportunities for the intelligent management of batteries. However, existing battery system management still faces challenges such as low model generalizability, poor generalization capability, and weak mechanistic interpretability. This seminar will introduce hybrid modeling approaches to enhance battery monitoring and health assessment. Two main strategies, including the mechanistic leading residual compensation and the mechanistic constrained machine learning, will be discussed. Both the monitoring of cell-scale and electrode-scale health will be introduced with hybrid approaches, where the main macroscopic and microscopic states that are critical for battery management will be included. This seminar highlights the combination of mechanistic information and machine learning for enhanced battery diagnosis and prognosis to improve accuracy, reliability, and interpretability in intelligent battery management.
 </div>
 # Speaker Bio
 ![photo](./headshots/che.jpg)

@@ -16,6 +16,6 @@ Lithium-ion batteries (LIBs) are widely used in various electronic devices owing
 # Speaker Bio
 ![photo](./headshots/rhyu.jpg)
 <div style="text-align: justify;">
-Jinwook Rhyu is a fifth-year PhD student in Chemical Engineering at MIT, with a minor in applied mathematics. Advised by Prof. Richard D. Braatz, he conducts research on developing interpretable frameworks that bridge physics-based and data-driven approaches for optimizing lithium-ion battery applications. He is a recipient of the Kwanjeong Scholarship. Prior to MIT, he obtained his B.S. in Chemical and Biological Engineering from Seoul National University, Republic of Korea, in 2021.
+Jinwook Rhyu is a fifth-year PhD student in Chemical Engineering at MIT, with a minor in applied mathematics. Advised by Prof. Richard D. Braatz and Prof. Martin Z. Bazant, he conducts research on developing interpretable frameworks that bridge physics-based and data-driven approaches for optimizing lithium-ion battery applications. He was a recipient of the Kwanjeong Scholarship. Prior to MIT, he obtained his B.S. in Chemical and Biological Engineering from Seoul National University, Republic of Korea, in 2021.
 </div>
 
