@@ -7,7 +7,7 @@ title: "Perspectives of Quantum Computing in Chemical Engineering"
 date: 2025-11-06 3:00pm
 author: David E. Bernal Neira
 affiliation: Davidson School of Chemical Engineering, Purdue University
-zoom: coming soon
+zoom: https://mit.zoom.us/j/94572304107?from=addon
 ---
 # Abstract
 <div style="text-align: justify;">
