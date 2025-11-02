@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: seminar
-title: coming soon
+title: "The Prior is (Almost) All You Need: Physics-Informed Bayesian Optimization for Process Systems Engineering"
 date: 2025-11-13 2:00pm
 author: Joel Paulson 
 affiliation: Department of Chemical and Biological Engineering, University of Wisconsin-Madison
@@ -11,7 +11,7 @@ zoom: coming soon
 ---
 # Abstract
 <div style="text-align: justify;">
-coming soon
+Bayesian optimization (BO) has emerged as a powerful framework for accelerating design and discovery across a broad range of science and engineering applications, offering a principled way to guide experiments or simulations under uncertainty. Yet, when applied directly as a “black‑box” optimizer, its performance can be limited by how little prior structure it assumes about the underlying system. In reality, most problems relevant to the field of process systems engineering (PSE) – from molecular/materials discovery to process design and control – encode rich structure that can be leveraged through the right inductive biases, or priors. In this talk, I will introduce physics-informed Bayesian optimization (PIBO), which improves the efficiency and reliability of scientific decision-making by embedding domain knowledge in the surrogate model, constraints, and/or acquisition process. This includes directly guiding the selection of the most informative experiments/simulations to run next, especially in data-limited settings. I will present illustrative examples from bioreactor calibration, safe control of plasma medicine devices, and molecular property optimization, demonstrating how even relatively simple prior knowledge (e.g., network structure, positivity, feature sparsity) can significantly improve sample efficiency in practice. I will close with a perspective on some promising directions for future work including automated prior selection and extending BO to broader discovery-driven objectives. Together, these ideas reframe BO not as a one-size-fits-all optimizer, but as a flexible, physics-aware framework for accelerating many decision-making tasks in real-world PSE.
 </div>
 # Speaker Bio
 ![photo](./headshots/paulson.jpg)
