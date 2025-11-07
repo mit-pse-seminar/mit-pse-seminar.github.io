@@ -7,7 +7,7 @@ title: "The Prior is (Almost) All You Need: Physics-Informed Bayesian Optimizati
 date: 2025-11-13 2:00pm
 author: Joel Paulson 
 affiliation: Department of Chemical and Biological Engineering, University of Wisconsin-Madison
-zoom: coming soon
+zoom: https://mit.zoom.us/j/96027692164?from=addon
 ---
 # Abstract
 <div style="text-align: justify;">
