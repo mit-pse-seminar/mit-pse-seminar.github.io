@@ -7,7 +7,7 @@ title: "From Molecules to Supply Chains: Transforming Data to Decisions using Ge
 date: 2025-12-04 3:00pm
 author: Victor M. Zavala
 affiliation: Department of Chemical and Biological Engineering, University of Wisconsin-Madison
-zoom: coming soon
+zoom: https://mit.zoom.us/j/96845306647?from=addon
 ---
 # Abstract
 <div style="text-align: justify;">
